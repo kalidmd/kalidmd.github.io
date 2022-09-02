@@ -12,15 +12,36 @@ const servicesEl = document.querySelector('.service');
 const dropdownEl = document.querySelector('.dropdown');
 const whoWeAreEl = document.querySelector('.who-we-are');
 const whatWeDoEl = document.querySelector('.what-we-do');
+const pagBtn1 = document.querySelector('#pag-btn1');
+const pagBtn2 = document.querySelector('#pag-btn2');
+const prevBtn1 = document.querySelector('#prev-btn1');
+const nextBtn2 = document.querySelector('#next-btn2');
+const item = document.querySelector('.item');
+const item1 = document.querySelector('.item-1');
+const item2 = document.querySelector('.item-2');
+const item3 = document.querySelector('.item-3');
+const item4 = document.querySelector('.item-4');
+const item5 = document.querySelector('.item-5');
+const item6 = document.querySelector('.item-6');
+const item7 = document.querySelector('.item-7');
+const item8 = document.querySelector('.item-8');
 
-console.log(whoWeAreEl);
-console.log(whatWeDoEl);
+
+console.log(item);
+// console.log(item2);
+// console.log(item3);
+// console.log(item4);
+// console.log(item5);
+// console.log(item6);
+// console.log(item7);
+// console.log(item8);
+
+//console.log(nextBtn2);
 // console.log(servicesEl);
 
 
-const pagBtn1 = document.querySelector('#pag-btn1');
-const pagBtn2 = document.querySelector('#pag-btn2');
-
+                //DESKTOP PAGINATION
+            // *********************
 pagBtn1.addEventListener('click', () => {
     pagBtn1.classList.add('active');
     pagBtn2.classList.remove('active');
@@ -78,7 +99,15 @@ servicesEl.addEventListener('click', () => {
     closeSign.classList.remove('close-sign-open');
     humnavbarsCont.classList.remove('hum-navbars-close');
 });
-
+                        //MOBILE DROPDOWN
+                        //******************
 dropdownEl.addEventListener('click', () => {
     menuEL.classList.toggle('menu-open');
 });
+
+
+                // MOBILE PAGINATION
+            //******************** 
+nextBtn2.addEventListener('click', () => {
+    item2.classList.add('item-2-open');
+})
