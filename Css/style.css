@@ -142,6 +142,12 @@ span {
     border: 1px solid transparent;
 }
 
+                    /* TO BE TOGGLED 
+                    *****************/
+.menu-open {
+    opacity: 1;
+}
+
                             /* dropdown hover..... */                       
 .dropdown:hover > .select {
     background-color: #ca650c;
@@ -156,7 +162,6 @@ span {
 .dropdown:hover > .menu {
     opacity: 1;
 }
-                            
 
 .txt:hover {
     border: 2px solid #ca650c;
@@ -526,8 +531,8 @@ footer {
     }
 
     .dropdown:hover > .select > .txt > .caret {
-        transform: rotate(135deg);
-        -webkit-transform: rotate(135deg);
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
         transition: 0.5s;
     }
     

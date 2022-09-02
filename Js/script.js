@@ -7,11 +7,15 @@ const closeSign = document.querySelector('.close-sign');
 const navCont = document.querySelector('.nav-cont');
 const homeEl = document.querySelector('.home');
 const aboutEL = document.querySelector('.about');
+const menuEL = document.querySelector('.menu');
 const servicesEl = document.querySelector('.service');
+const dropdownEl = document.querySelector('.dropdown');
+const whoWeAreEl = document.querySelector('.who-we-are');
+const whatWeDoEl = document.querySelector('.what-we-do');
 
-console.log(homeEl);
-console.log(aboutEL);
-console.log(servicesEl);
+console.log(whoWeAreEl);
+console.log(whatWeDoEl);
+// console.log(servicesEl);
 
 
 const pagBtn1 = document.querySelector('#pag-btn1');
@@ -52,7 +56,18 @@ homeEl.addEventListener('click', () => {
 
 });
 
-aboutEL.addEventListener('click', () => {
+// aboutEL.addEventListener('click', () => {
+//     navCont.classList.remove('nav-cont-open');   
+//     closeSign.classList.remove('close-sign-open');
+//     humnavbarsCont.classList.remove('hum-navbars-close');
+// });
+whoWeAreEl.addEventListener('click', () => {
+    navCont.classList.remove('nav-cont-open');   
+    closeSign.classList.remove('close-sign-open');
+    humnavbarsCont.classList.remove('hum-navbars-close');
+});
+
+whatWeDoEl.addEventListener('click', () => {
     navCont.classList.remove('nav-cont-open');   
     closeSign.classList.remove('close-sign-open');
     humnavbarsCont.classList.remove('hum-navbars-close');
@@ -62,4 +77,8 @@ servicesEl.addEventListener('click', () => {
     navCont.classList.remove('nav-cont-open');   
     closeSign.classList.remove('close-sign-open');
     humnavbarsCont.classList.remove('hum-navbars-close');
+});
+
+dropdownEl.addEventListener('click', () => {
+    menuEL.classList.toggle('menu-open');
 });
