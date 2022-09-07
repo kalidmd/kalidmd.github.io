@@ -269,12 +269,12 @@ ul {
     font-size: 22px;
 }
 
-.button {
+.discover-btn {
     text-align: center;
     padding-top: 92px;
 }
 
-.button > a {
+.discover-btn > a {
     text-decoration: none;
     color: #fff;
     padding: 13px 36px;
@@ -283,6 +283,9 @@ ul {
     border-radius: 23px;
     font-weight: 800;
     font-size: 16px;
+}
+.discover-btn a:hover {
+    background-color: #6e93f7;
 }
 
 .sec-2, .sec-3 {
@@ -322,6 +325,7 @@ ul {
 .card { 
     border-radius: 25px;
     background-color: #fff;
+    user-select: none;
 }
 
 .image-content, .card-content {
