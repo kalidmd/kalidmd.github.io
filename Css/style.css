@@ -419,12 +419,15 @@ ul {
                         /* FOOTER START
                        *****************/
 footer {
-    /* position: relative; */
+    position: relative;
     max-width: 100%;
-    /* height: 200px; */
+    height: 280px;
     margin-top: 8px;
     background-color: #ccc;
     text-align: center;
+}
+.footer-logo {
+    width: 20px;
 }
 .contact-container {
     margin: 0 auto;
@@ -448,20 +451,27 @@ footer {
 .social-medias a:hover {
     border-bottom: 3px solid #4070f4;
 }
-.footer-logo {
-    width: 20px;
-}
 
-.copyright > span {
-    color: #000;
-    font-weight: 600;
-    font-size: 18px;
-}
 .copyright {
     padding: 63px 0px 20px;
+
 }
+.copyright > span {
+    font-weight: 600;
+    font-size: 18px;
+    color: #707070;
+}
+
 .copyright-logo {
     transform: translateY(10%);
+}
+.kalid-temp {
+    position: absolute;
+    right: 26px;
+    bottom: 20px;
+    width: 515px;
+    color: #707070;
+    margin-top: 15px;
 }
 
                       /* SMARTPHONES
@@ -622,14 +632,19 @@ footer {
         font-size: 13px;
     }
 
-    /* footer {
-        max-width: 100%;
-        height: 200px;
-        background-color: #ccc;
-        text-align: center;
+    .kalid-temp {
+        position: relative;
+        margin: 15px auto;
+        right: 0;
+        bottom: 0;
+        width: 345px;
+        color: #707070;
+    }
+    footer {
+        height: 300px;
     }
      
-    .copyright > span {
+    /*.copyright > span {
         color: #000;
         font-weight: 600;
         font-size: 18px;
