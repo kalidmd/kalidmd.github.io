@@ -419,9 +419,8 @@ ul {
                         /* FOOTER START
                        *****************/
 footer {
-    position: relative;
     max-width: 100%;
-    height: 280px;
+    height: 300px;
     margin-top: 8px;
     background-color: #ccc;
     text-align: center;
@@ -461,17 +460,13 @@ footer {
     font-size: 18px;
     color: #707070;
 }
-
 .copyright-logo {
     transform: translateY(10%);
+    width: 12px;
 }
 .kalid-temp {
-    position: absolute;
-    right: 26px;
-    bottom: 20px;
-    width: 515px;
     color: #707070;
-    margin-top: 15px;
+    margin-top: 45px;
 }
 
                       /* SMARTPHONES
@@ -633,20 +628,25 @@ footer {
     }
 
     .kalid-temp {
-        position: relative;
-        margin: 15px auto;
-        right: 0;
-        bottom: 0;
-        width: 345px;
-        color: #707070;
+        margin: 45px auto;
+        width: 282px;
+        font-size: 13px;
     }
     footer {
-        height: 300px;
+        height: 320px;
     }
-     
-    /*.copyright > span {
-        color: #000;
-        font-weight: 600;
-        font-size: 18px;
-    } */
+    .copyright {
+        padding: 63px 0 0;
+    
+    }
+    .copyright-logo {
+        width: 9px;
+    }
+    .copyright > span {
+        font-size: 13px;
+    }
+    
+    .copyright-logo {
+        transform: translateY(10%);
+    }
 }
