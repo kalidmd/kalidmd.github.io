@@ -456,7 +456,7 @@ footer {
 }
 .kalid-temp {
     color: #707070;
-    margin-top: 45px;
+    margin-top: 16px;
     font-weight: 600;
 }
 
@@ -598,7 +598,7 @@ footer {
         width: 9px;
     }
     .kalid-temp {
-        margin: 45px auto;
+        margin: 15px auto;
         width: 282px;
         font-size: 13px;
     }
