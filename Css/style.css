@@ -10,9 +10,10 @@ html {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: myFont;
+    font-family: 'Times New Roman', Times, serif;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     -webkit-tap-highlight-color: transparent;
+    /* max-width: 100%; */
 }
 ::after, ::before{
     box-sizing: border-box;
@@ -45,12 +46,14 @@ img {
 
 .ashara-cont {
     display: inline-block;
-    width: 590px;
+    max-width: 100%;
+    width: 673px;
     padding-left: 30px;
     height: 55px;
     margin-top: 18px;
     font-size: 40px;
     font-weight: 800;
+    letter-spacing: .8px;
 }
 
 .logo1 {
@@ -418,9 +421,6 @@ footer {
     background-color: #ccc;
     text-align: center;
 }
-.footer-logo {
-    width: 20px;
-}
 .contact-container {
     margin: 0 auto;
     max-width: 300px;
@@ -430,7 +430,7 @@ footer {
     font-weight: 800;
 }
 .social-medias {
-    width: 105px;
+    width: 160px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -438,11 +438,15 @@ footer {
 }
 .social-medias a {
     text-decoration: none;
-    border-bottom: 3px solid transparent;
 }
-.social-medias a:hover {
-    border-bottom: 3px solid #4070f4;
+.social-logo {
+    width: 30px;
+    transition: transform 0.4s;
 }
+.social-logo:hover {
+    transform: scale(1.2);
+}
+
 .copyright {
     padding: 63px 0px 20px;
 }
@@ -468,11 +472,11 @@ footer {
         height: auto;
     }
     .ashara-cont {
-        max-width: 260px;
+        width: 307px;
         padding-left: 7px;
         height: 31px;
         margin-top: 12px;
-        font-size: 18px;
+        font-size: 14px;
     }
     
     .logo1 {
@@ -503,6 +507,7 @@ footer {
         padding: 8px 12px;
         font-size: 11px;
         border: none;
+        letter-spacing: 1.3px;
     }
     .nav-cont li:hover {
         background-color: #4070f4;
@@ -540,7 +545,7 @@ footer {
     .menu li a {
         padding: 5px 7px;
         font-weight: 700;
-        font-size: 12px;
+        font-size: 10px;
     }
     .menu li:hover {
         background-color: rgba(22,34,57,0.95);
