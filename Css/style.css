@@ -162,8 +162,8 @@ span {
 .hum-navbars {
     display: none;
     position: absolute;
-    width: 24px;
-    height: 18px;
+    width: 22px;
+    height: 15px;
     top: 1rem;
     right: 1rem;
     flex-direction: column;
@@ -458,7 +458,7 @@ footer {
         margin-left: 0px;
     }
     .nav-cont li a, .selected {
-        padding: 8px 12px;
+        padding: 10px 0px;
         font-size: 10px;
         border: none;
         letter-spacing: 1.3px;
@@ -521,7 +521,7 @@ footer {
         font-size: 16px;    
     }
     .discover-btn {
-        padding-top: 59px;
+        padding-top: 50px;
     }
     .discover-btn > a {
         padding: 9px 22px;
