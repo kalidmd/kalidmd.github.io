@@ -459,7 +459,7 @@ footer {
     }
     .nav-cont li a, .selected {
         padding: 8px 12px;
-        font-size: 11px;
+        font-size: 10px;
         border: none;
         letter-spacing: 1.3px;
     }
