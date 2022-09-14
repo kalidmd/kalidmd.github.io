@@ -4,7 +4,7 @@
 }
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 92px;
+    scroll-padding-top: 45px;
 }
 *{
     padding: 0;
@@ -24,10 +24,11 @@ body {
 img {
     max-width: 100%;
 }
-            /* NAVBAR */
-        /******************/ 
+                            /* NAVBAR */
+                         /**************/ 
 .nav-container {
     background-color: rgba(22,34,57,0.95);
+    /* position: relative;  */
     position: fixed !important; 
     top: 0;
     left: 0;
@@ -224,7 +225,7 @@ ul {
 .sec-1 {
     max-width: 100%;
     height: 585px;
-    margin-top: 92px;
+    /* margin-top: 92px; */
     background-image: url(../Resources/Images/place-holder.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -427,6 +428,9 @@ footer {
                       /* SMARTPHONES
                       ****************/
 @media screen and (max-width: 480px) {  
+    html {
+        scroll-padding-top: 20px;
+    }
     .nav-container {
         height: auto;
     }
@@ -513,7 +517,7 @@ footer {
     }
     .sec-1 {
         height: 323px;
-        margin-top: 54px;
+        /* margin-top: 54px; */
     }
     .sec-1 > h3 {
         width: 250px;
@@ -561,6 +565,10 @@ footer {
                                 /* TABLETS AND IPADS
                                 **********************/
 @media screen and (min-width: 481px) and (max-width: 768px) {  
+    
+    html {
+        scroll-padding-top: 25px;
+    }
     .nav-container {
         height: auto;
     }
@@ -645,7 +653,7 @@ footer {
     }
     .sec-1 {
         height: 333px;
-        margin-top: 54px;
+        /* margin-top: 54px; */
     }
     .sec-1 > h3 {
         width: 250px;
@@ -693,6 +701,9 @@ footer {
                          **************************************/
 @media screen and (min-width: 769px) and (max-width: 940px)
 {
+    html {
+        scroll-padding-top: 35px;
+    }
     .ashara-cont {
         width: 400px;
         padding-left: 13px;
@@ -735,6 +746,9 @@ footer {
                         /* SMALL LAPTOTPS(CUSTOM BREAK POINT)
                         *************************************/
 @media screen and (min-width: 941px) and (max-width: 1024px) {  
+    html {
+        scroll-padding-top: 65px;
+    }
     .nav-container {
         height: 87px;
     }
@@ -817,7 +831,7 @@ footer {
     }
     .sec-1 {
         height: 445px;
-        margin-top: 54px;
+        /* margin-top: 54px; */
     }
     .sec-1 > h3 {
         margin: 0 auto;
@@ -864,6 +878,9 @@ footer {
                            /* MEDIUM SCREENS (CUSTOM BREAK POINT) */
                         /********************************************/
 @media screen and (min-width: 1025px) and (max-width: 1400px) {
+    html {
+        scroll-padding-top: 35px;
+    }
     .ashara-cont {
         width: 495px;
         padding-left: 13px;
@@ -882,6 +899,6 @@ footer {
     }
     .sec-1 {
         height: 554px;
-        margin-top: 54px;
+        /* margin-top: 54px; */
     }
 }
