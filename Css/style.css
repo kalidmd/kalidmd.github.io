@@ -419,9 +419,10 @@ footer {
     width: 12px;
 }
 .kalid-temp {
+    font-family: myFont;
+    font-weight: 600;
     color: #707070;
     margin-top: 16px;
-    font-weight: 600;
 }                               
                       /* SMARTPHONES
                       ****************/
