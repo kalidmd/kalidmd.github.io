@@ -13,7 +13,6 @@ html {
     font-family: 'Times New Roman', Times, serif;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     -webkit-tap-highlight-color: transparent;
-    /* max-width: 100%; */
 }
 ::after, ::before{
     box-sizing: border-box;
@@ -43,45 +42,39 @@ img {
 .nav-container-height {
     height: 55px;
 }
-
 .ashara-cont {
     display: inline-block;
     max-width: 100%;
-    width: 673px;
-    padding-left: 30px;
-    height: 55px;
-    margin-top: 18px;
-    font-size: 40px;
+    width: 650px;
+    padding-left: 13px;
+    height: 31px;
+    margin-top: 26px;
+    font-size: 38px;
     font-weight: 800;
     letter-spacing: .8px;
 }
-
 .logo1 {
-    width: 45px;
+    width: 41px;
     margin-right: 4px;
-    transform: translate(3px, 7px);
+    transform: translate(3px, 4px);
 }
-
 span {
     color: #4070f4;
 }
-
 .ashara-cont > p {
     color: #fff;
 }
-
 .nav-cont {
+    max-width: 100%;
     float: right;
-    padding-right: 134px;
-    margin-top: 38px;
+    padding-right: 66px;
+    margin-top: 30px;
 }
- 
 .nav-cont li {
     display: inline-block;
     position: relative;
     margin-left: 15px;
 }
-
 .nav-cont li a, .selected {
     padding: 10px 22px;
     font-size: 15px;
@@ -93,13 +86,11 @@ span {
     text-decoration: none;
     cursor: pointer;
 }
-
                  /* CLASSES TO BE TOGGLED
                 ***********************/
 .nav-cont-open {
     display: block !important;
 }
-
 .arrow {
     border: solid #fff;
     border-width: 0 3px 3px 0;
@@ -108,14 +99,12 @@ span {
     margin-left: 1px;
     margin-bottom: 1px;
 }
-
 .caret {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transition: 0.5s;
 }
-
-                                /* DROPDOWN STYLES.... */
+                             /* DROPDOWN STYLES.... */
 .menu {
     background-color:rgba(22,34,57,0.95);
     color: #fff;
@@ -125,7 +114,6 @@ span {
     border: none;
     transition: opacity 0.5s;
 } 
-
 .menu li {
     padding-bottom: 26px;
     cursor: pointer;
@@ -133,7 +121,6 @@ span {
 .menu li:first-child {
     padding-top: 9px;
 }
-
 .menu li a {
     margin: 0 auto;
     padding: 6px 17px;
@@ -142,19 +129,16 @@ span {
     letter-spacing: normal;
     border: 1px solid transparent;
 }
-
                     /* TO BE TOGGLED 
                     *****************/
 .menu-open {
     opacity: 1;
 }
-
                             /* dropdown hover..... */                       
 .dropdown:hover > .select {
     background-color: #4070f4;
     transition: 0.5s;
 } 
-
 .dropdown:hover > .select > .txt > .caret {
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
@@ -163,19 +147,15 @@ span {
 .dropdown:hover > .menu {
     opacity: 1;
 }
-
 .txt:hover {
     border: 2px solid #4070f4;
 }
-
 .option-txt:hover {
     color: #4070f4;
 }
-
                          /* ......dropdown hover end */
 
                          /*.....DROPDOWN STYLES END */  
-
 
                         /* HUMBURGER NAVBARS........START
                         **********************************/
@@ -190,22 +170,18 @@ span {
     justify-content: space-between;
     cursor: pointer;
 }
-
 .hum-navbars .bar {
     height: 2px;
     background-color: #fff;
     border-radius: 15px;
 }     
-     
                 /* CLASSES TO BE TOGGLED
                 ***********************/
 .hum-navbars-close {
     display: none !important;
 }
-
                         /* ......END  HUMBURGER NAVBARS
                         **********************************/                    
-
                      /* CLOSE SIGN.....START*/
                   /****************************/
 .close-sign {
@@ -217,7 +193,6 @@ span {
     height: 32px;
     cursor: pointer;
 }
-
 .close-sign:before, .close-sign:after {
     position: absolute;
     left: 15px;
@@ -239,13 +214,11 @@ span {
 }
                 /* ....... END CLOSE SIGN*/
                 /****************************/
-
 ul {
     padding: 0px;
     margin: 0px;
     list-style-type: none;
 }
-
                             /* SECTIONS */
                           /****************/
 .sec-1 {
@@ -257,19 +230,16 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .sec-1 > h3 {
     color: #fff;
     text-align: center;
     padding-top: 352px;
     font-size: 22px;
 }
-
 .discover-btn {
     text-align: center;
     padding-top: 92px;
 }
-
 .discover-btn > a {
     text-decoration: none;
     color: #fff;
@@ -283,13 +253,10 @@ ul {
 .discover-btn a:hover {
     background-color: #6e93f7;
 }
-
 .sec-2, .sec-3 {
     width: 100%;
-    height: 247px;
+    height: auto;
 }
-
-
 .sec-2 > h2, .sec-3 > h2, .services {
     color: #fff;
     text-align: center;
@@ -304,7 +271,6 @@ ul {
     font-size: 22px;
     color: #fff;
 }
-
                                  /* SWIPER STARTS.......
                               *************************/
 .slide-container {
@@ -317,13 +283,11 @@ ul {
     overflow: hidden;
     border-radius: 25px;
 }
-
 .card { 
     border-radius: 25px;
     background-color: #fff;
     user-select: none;
 }
-
 .image-content, .card-content {
     display: flex;
     flex-direction: column;
@@ -375,8 +339,7 @@ ul {
 .name {
     font-size: 18px;
     font-weight: 800;
-    color: #333;
-    
+    color: #333;   
 }
 .description {
     font-size: 14px;
@@ -408,10 +371,8 @@ ul {
 .swiper-pagination-bullet-active {
     background-color: #4070f4;
 }
-
                                 /* SWIPER ENDS
-                                ************* */
-
+                               ****************/
                         /* FOOTER START
                        *****************/
 footer {
@@ -446,7 +407,6 @@ footer {
 .social-logo:hover {
     transform: scale(1.2);
 }
-
 .copyright {
     padding: 63px 0px 20px;
 }
@@ -462,12 +422,10 @@ footer {
     color: #707070;
     margin-top: 16px;
     font-weight: 600;
-}
-
+}                               
                       /* SMARTPHONES
                       ****************/
-@media screen and (max-width: 412px) {  
-
+@media screen and (max-width: 480px) {  
     .nav-container {
         height: auto;
     }
@@ -478,17 +436,15 @@ footer {
         margin-top: 12px;
         font-size: 14px;
     }
-    
     .logo1 {
         width: 20px;
-        transform: translate(3px, 4px);
+        transform: translate(3px, 5px);
     }
                 /* HUMBURGER NAV IN MEDIA QUERY 
               ************************************/
     .hum-navbars {
         display: flex;
     }
-
     .nav-cont {
         display: none;
         float: none;
@@ -497,12 +453,10 @@ footer {
         padding-right: 0px;
         text-align: center;
     }
-    
     .nav-cont li {
         display: block;
         margin-left: 0px;
     }
-    
     .nav-cont li a, .selected {
         padding: 8px 12px;
         font-size: 11px;
@@ -528,8 +482,6 @@ footer {
         -webkit-transform: rotate(45deg);
         transition: 0.5s;
     }
-    
-
     .menu {
         width: 100px;
         top: 0px;
@@ -551,8 +503,8 @@ footer {
         background-color: rgba(22,34,57,0.95);
     }
     .button {
-            padding-top: 55px;
-        }
+        padding-top: 55px;
+    }
 
     .button > a {
         padding: 9px 21px;
@@ -571,16 +523,13 @@ footer {
     .discover-btn {
         padding-top: 59px;
     }
-    
     .discover-btn > a {
         padding: 9px 22px;
         font-size: 13px;
     }
-      
     .sec-2, .sec-3 {
-        height: 278px;
+        height: auto;
     }
-    
     .sec-2 > h2, .sec-3 > h2, .services {
         font-size: 18px;
         padding-top: 27px;
@@ -606,5 +555,333 @@ footer {
         margin: 15px auto;
         width: 282px;
         font-size: 13px;
+    }
+}
+                                /* TABLETS AND IPADS
+                                **********************/
+@media screen and (min-width: 481px) and (max-width: 768px) {  
+    .nav-container {
+        height: auto;
+    }
+    .ashara-cont {
+        width: 307px;
+        padding-left: 7px;
+        height: 31px;
+        margin-top: 12px;
+        font-size: 17px;
+    }
+    .logo1 {
+        width: 20px;
+        transform: translate(3px, 4px);
+    }
+                /* HUMBURGER NAV IN MEDIA QUERY 
+                ************************************/
+    .hum-navbars {
+        display: flex;
+    }
+    .nav-cont {
+        display: none;
+        float: none;
+        width: 103px;
+        margin: 10px auto;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .nav-cont li {
+        display: block;
+        margin-left: 0px;
+    }
+    .nav-cont li a, .selected {
+        padding: 8px 12px;
+        font-size: 11px;
+        border: none;
+        letter-spacing: 1.3px;
+    }
+    .nav-cont li:hover {
+        background-color: #4070f4;
+    }
+    .txt:hover {
+        border: none;
+    }
+    .arrow {
+        padding: 2px;
+    }
+    .caret {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+    .dropdown:hover > .select > .txt > .caret {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transition: 0.5s;
+    }
+    .menu {
+        width: 100px;
+        top: 0px;
+        right: -100px;
+        border: 1px solid #4070f4;
+    }
+    .menu li {
+        padding-bottom: 13px;
+    }
+    .menu li:first-child {
+        padding-top: 2px;
+    }
+    .menu li a {
+        padding: 5px 7px;
+        font-weight: 700;
+        font-size: 10px;
+    }
+    .menu li:hover {
+        background-color: rgba(22,34,57,0.95);
+    }
+    .button {
+        padding-top: 55px;
+    }
+    .button > a {
+        padding: 9px 21px;
+        font-size: 11px;
+    }
+    .sec-1 {
+        height: 333px;
+        margin-top: 54px;
+    }
+    .sec-1 > h3 {
+        width: 250px;
+        margin: 0 auto;
+        padding-top: 138px;
+        font-size: 16px;    
+    }
+    .discover-btn {
+        padding-top: 59px;
+    }
+    .discover-btn > a {
+        padding: 9px 22px;
+        font-size: 13px;
+    }    
+    .sec-2, .sec-3 {
+        height: auto;
+    }
+    .sec-2 > h2, .sec-3 > h2, .services {
+        font-size: 18px;
+        padding-top: 27px;
+    }
+    .sec-2 > p, .sec-3 > p {
+        width: 82%;
+        padding-top: 20px;
+        font-size: 13px;
+    }
+    footer {
+        height: 290px;
+    }
+    .copyright {
+        padding: 63px 0 0;
+    }
+    .copyright > span {
+        font-size: 13px;
+    }
+    .copyright-logo {
+        width: 9px;
+    }
+    .kalid-temp {
+        margin: 15px auto;
+        width: 282px;
+        font-size: 13px;
+    }
+}
+                         /* SMALL SCREENS (CUSTOM BREAK POINT)
+                         **************************************/
+@media screen and (min-width: 769px) and (max-width: 940px)
+{
+    .ashara-cont {
+        width: 400px;
+        padding-left: 13px;
+        height: 31px;
+        margin-top: 28px;
+        font-size: 23px;
+    }
+    .logo1 {
+        width: 23px;
+        transform: translate(3px, 5px);
+    }
+    .nav-cont {
+        float: right;
+        padding-right: 8px;
+        margin-top: 30px
+    }
+    .nav-cont li {
+        display: inline-block;
+        position: relative;
+        margin-left: 0;
+    }
+    .nav-cont li a, .selected {
+        padding: 8px 21px;
+        font-size: 11px;
+        letter-spacing: 1.5px;
+        border: 2px solid transparent;
+    }
+    .menu li a {
+        padding: 6px 17px;
+        font-weight: normal;
+        font-size: 11px;
+    }
+    .arrow {
+        padding: 2px;
+    }
+     .sec-2, .sec-3 {
+        height: auto;
+    }
+}
+                        /* SMALL LAPTOTPS(CUSTOM BREAK POINT)
+                        *************************************/
+@media screen and (min-width: 941px) and (max-width: 1024px) {  
+    .nav-container {
+        height: 87px;
+    }
+    .ashara-cont {
+        width: 450px;
+        padding-left: 13px;
+        height: 31px;
+        margin-top: 26px;
+        font-size: 27px;
+    }
+    .logo1 {
+        width: 27px;
+        transform: translate(3px, 4px);
+    }
+    .nav-cont {
+        float: right;
+        padding-right: 26px;
+        margin-top: 30px;
+    }
+    .nav-cont li {
+        display: inline-block;
+        position: relative;
+        margin-left: 0;
+    }
+    .nav-cont li a, .selected {
+        padding: 8px 22px;
+        font-size: 12px;
+        letter-spacing: 1.5px;
+        border: 2px solid transparent;
+    }
+    .arrow {
+        padding: 2px;
+    }
+    .caret {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transition: 0.5s;
+    }
+                                  /* DROPDOWN STYLES.... */
+    .menu {
+        top: 43px;
+        border: none;
+    } 
+    .menu li {
+        padding-bottom: 26px;
+    }
+    .menu li:first-child {
+        padding-top: 9px;
+    }
+    .menu li a {
+        padding: 6px 17px;
+        font-weight: normal;
+        font-size: 12px;
+    }
+                          /* dropdown hover..... */                       
+    .dropdown:hover > .select {
+        background-color: #4070f4;
+        transition: 0.5s;
+    } 
+    .dropdown:hover > .select > .txt > .caret {
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+        transition: 0.5s;
+    }
+    .dropdown:hover > .menu {
+        opacity: 1;
+    }
+    .txt:hover {
+        border: 2px solid #4070f4;
+    }
+    .option-txt:hover {
+        color: #4070f4;
+    }
+    .button {
+        padding-top: 55px;
+    }
+    .button > a {
+        padding: 9px 21px;
+        font-size: 11px;
+    }
+    .sec-1 {
+        height: 445px;
+        margin-top: 54px;
+    }
+    .sec-1 > h3 {
+        margin: 0 auto;
+        padding-top: 265px;
+        font-size: 18px;    
+    }
+    .discover-btn {
+        padding-top: 70px;
+    }
+    .discover-btn > a {
+        padding: 9px 22px;
+        font-size: 13px;
+    }    
+    .sec-2, .sec-3 {
+        height: auto;
+    }
+    .sec-2 > h2, .sec-3 > h2, .services {
+        font-size: 18px;
+        padding-top: 27px;
+    }
+    .sec-2 > p, .sec-3 > p {
+        width: 82%;
+        padding-top: 20px;
+        font-size: 13px;
+    }
+    footer {
+        height: 290px;
+    }
+    .copyright {
+        padding: 63px 0 0;
+    }
+    .copyright > span {
+        font-size: 15px;
+    }
+    .copyright-logo {
+        width: 9px;
+    }
+    .kalid-temp {
+        margin: 15px auto;
+        font-size: 14px;
+    }
+}
+
+                           /* MEDIUM SCREENS (CUSTOM BREAK POINT) */
+                        /********************************************/
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
+    .ashara-cont {
+        width: 495px;
+        padding-left: 13px;
+        height: 31px;
+        margin-top: 26px;
+        font-size: 30px;
+    }
+    .logo1 {
+        width: 29px;
+        transform: translate(3px, 4px);
+    }
+    .nav-cont {
+        float: right;
+        padding-right: 26px;
+        margin-top: 30px;
+    }
+    .sec-1 {
+        height: 554px;
+        margin-top: 54px;
     }
 }
