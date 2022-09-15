@@ -271,9 +271,8 @@ ul {
 }
 .sec-2 > p, .sec-3 > p {
     margin: 0 auto;
-    width: 80%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 92%;
+    padding: 20px 0;
     font-size: 22px;
 }
 .services {
@@ -526,13 +525,13 @@ footer {
         font-size: 11px;
     }
     .sec-1 {
-        height: 323px;
+        height: 400px;
         /* margin-top: 54px; */
     }
     .sec-1 > h3 {
-        width: 250px;
+        width: 75%;
         margin: 0 auto;
-        padding-top: 138px;
+        padding-top: 206px;
         font-size: 16px;    
     }
     .discover-btn {
@@ -662,13 +661,13 @@ footer {
         font-size: 11px;
     }
     .sec-1 {
-        height: 333px;
+        height: 540px;
         /* margin-top: 54px; */
     }
     .sec-1 > h3 {
-        width: 250px;
+        width: 78%;
         margin: 0 auto;
-        padding-top: 138px;
+        padding-top: 361px;
         font-size: 16px;    
     }
     .discover-btn {
@@ -748,6 +747,19 @@ footer {
     }
     .arrow {
         padding: 2px;
+    }
+    .sec-1 > h3 {
+        width: 78%;
+        margin: 0 auto;
+        padding-top: 520px;
+        font-size: 18px;    
+    }
+    .discover-btn {
+        padding-top: 70px;
+    }
+    .discover-btn > a {
+        padding: 9px 22px;
+        font-size: 13px;
     }
      .sec-2, .sec-3 {
         height: auto;
@@ -840,13 +852,14 @@ footer {
         font-size: 11px;
     }
     .sec-1 {
-        height: 445px;
+        height: 545px;
         /* margin-top: 54px; */
     }
     .sec-1 > h3 {
         margin: 0 auto;
-        padding-top: 265px;
-        font-size: 18px;    
+        width: 80%;
+        padding-top: 360px;
+        font-size: 19px;    
     }
     .discover-btn {
         padding-top: 70px;
@@ -908,7 +921,13 @@ footer {
         margin-top: 30px;
     }
     .sec-1 {
-        height: 554px;
+        height: 700px;
         /* margin-top: 54px; */
+    }
+    .sec-1 > h3 {
+        margin: 0 auto;
+        width: 80%;
+        padding-top: 424px;
+        font-size: 19px;    
     }
 }
