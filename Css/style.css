@@ -28,7 +28,7 @@ img {
                          /**************/ 
 .nav-container {
     background-color: rgba(22,34,57,0.95);
-    position: fixed !important; 
+    position: fixed; 
     top: 0;
     left: 0;
     right: 0;
