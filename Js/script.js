@@ -7,6 +7,10 @@ const servicesEl = document.querySelector('.service');
 const dropdownEl = document.querySelector('.dropdown');
 const whoWeAreEl = document.querySelector('.who-we-are');
 const whatWeDoEl = document.querySelector('.what-we-do');
+const navHeight = document.querySelector('.nav-container').offsetHeight;
+                // SCROLL PADDING
+document.documentElement.style.setProperty('--scroll-padding', navHeight + 'px');
+
 
 humnavbarsCont.addEventListener('click', () => {
     humnavbarsCont.classList.add('hum-navbars-close');
