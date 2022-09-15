@@ -188,7 +188,7 @@ span {
 .close-sign {
     display: none;
     position: absolute;
-    top: 1rem;
+    top: 0.7rem;
     right: 1rem;
     width: 32px;
     height: 32px;
@@ -198,7 +198,7 @@ span {
     position: absolute;
     left: 15px;
     content: ' ';
-    height: 25px;
+    height: 23px;
     width: 3px;
     background-color: rgb(214, 65, 65);
 }
@@ -255,10 +255,8 @@ ul {
 }
 .sec-2, .sec-3 {
     margin: 100px auto 25px;
-    /* margin-top: 120px;
-    margin-bottom: 15px; */
     max-width: 100%;
-    width: 60%;
+    width: 75%;
     height: auto;
     background-color: #87a4f4;
     color: #000;
@@ -269,12 +267,13 @@ ul {
     text-align: center;
     font-weight: 800;
     font-size: 25px;
-    padding-top: 45px;
+    padding-top: 20px;
 }
 .sec-2 > p, .sec-3 > p {
     margin: 0 auto;
     width: 80%;
-    padding-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 22px;
 }
 .services {
