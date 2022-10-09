@@ -361,6 +361,7 @@ footer {
 }
 .address-section {
     display: flex;
+    display: -ms-flexbox;
     max-width: 100%;
     justify-content: space-evenly;
 }
