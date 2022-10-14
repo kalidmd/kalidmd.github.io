@@ -241,6 +241,7 @@ ul {
     color: #fff;
     margin: 0 auto;
     font-size: 40px;
+    user-select: none;
 }
 .services {
     color: #fff;
