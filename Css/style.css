@@ -367,6 +367,7 @@ footer {
 }
 .contact-container, .address-container, .follow-container {
     padding-top: 35px;
+    line-height: 21px;
 }
 .follow-us, .contact-us, .address {
     font-weight: 800;
