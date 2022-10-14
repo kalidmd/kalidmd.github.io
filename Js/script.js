@@ -8,8 +8,15 @@ const dropdownEl = document.querySelector('.dropdown');
 const whoWeAreEl = document.querySelector('.who-we-are');
 const whatWeDoEl = document.querySelector('.what-we-do');
 const navHeight = document.querySelector('.nav-container').offsetHeight;
+
+let screenHeight = screen.height;
+// let screenHeight = screen.width;
+
                 // SCROLL PADDING
 document.documentElement.style.setProperty('--scroll-padding', navHeight + 'px');
+
+                // SCREEN HEIGHT
+document.documentElement.style.setProperty('--screen-height', screenHeight + 'px');
 
 
 humnavbarsCont.addEventListener('click', () => {
